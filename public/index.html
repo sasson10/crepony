@@ -143,7 +143,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="equipo in equipos | orderBy : '-Puntos'">
+          <tr ng-repeat="equipo in equipos | orderBy : ['-Puntos','-DiferenciaGoles']">
           <td>{{equipo.$id}}</td>
           <td>{{equipo.JuegosJugados}}</td>
           <td>{{equipo.JuegosGanados}}</td>
