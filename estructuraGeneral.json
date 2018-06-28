@@ -1,0 +1,170 @@
+{
+  "Equipos": 
+    {
+      "Paris": 
+        {
+          "JuegosJugados": 7,
+          "JuegosGanados": 5,
+          "JuegosEmpatados": 2,
+          "JuegosPerdidos": 0,
+          "JuegosGanadosShootouts": 2,
+          "JuegosPerdidosShootouts": 0,
+          "JuegosGanadosPorDefault": 0,
+          "JuegosPerdidosPorDefault": 0,
+          "GolesFavor": 28,
+          "GolesContra": 11,
+          "DiferenciaGoles": 17,
+          "Puntos": 19
+        },
+      "Puebla": 
+        {
+          "JuegosJugados": 8,
+          "JuegosGanados": 3,
+          "JuegosEmpatados": 1,
+          "JuegosPerdidos": 2,
+          "JuegosGanadosShootouts": 0,
+          "JuegosPerdidosShootouts": 1,
+          "JuegosGanadosPorDefault": 2,
+          "JuegosPerdidosPorDefault": 0,
+          "GolesFavor": 20,
+          "GolesContra": 16,
+          "DiferenciaGoles": 4,
+          "Puntos": 16
+        },
+      "Alemania": 
+        {
+          "JuegosJugados": 7,
+          "JuegosGanados": 4,
+          "JuegosEmpatados": 1,
+          "JuegosPerdidos": 2,
+          "JuegosGanadosShootouts": 0,
+          "JuegosPerdidosShootouts": 1,
+          "JuegosGanadosPorDefault": 0,
+          "JuegosPerdidosPorDefault": 0,
+          "GolesFavor": 24,
+          "GolesContra": 14,
+          "DiferenciaGoles": 10,
+          "Puntos": 13
+        },
+      "Movimiento Naranja": 
+        {
+          "JuegosJugados": 6,
+          "JuegosGanados": 3,
+          "JuegosEmpatados": 2,
+          "JuegosPerdidos": 1,
+          "JuegosGanadosShootouts": 2,
+          "JuegosPerdidosShootouts": 0,
+          "JuegosGanadosPorDefault": 0,
+          "JuegosPerdidosPorDefault": 0,
+          "GolesFavor": 14,
+          "GolesContra": 10,
+          "DiferenciaGoles": 4,
+          "Puntos": 13
+        },
+      "Milan": 
+        {
+          "JuegosJugados": 7,
+          "JuegosGanados": 4,
+          "JuegosEmpatados": 0,
+          "JuegosPerdidos": 3,
+          "JuegosGanadosShootouts": 0,
+          "JuegosPerdidosShootouts": 0,
+          "JuegosGanadosPorDefault": 0,
+          "JuegosPerdidosPorDefault": 0,
+          "GolesFavor": 22,
+          "GolesContra": 23,
+          "DiferenciaGoles": -1,
+          "Puntos": 12
+        },
+      "Madrid": 
+        {
+          "JuegosJugados": 7,
+          "JuegosGanados": 2,
+          "JuegosEmpatados": 1,
+          "JuegosPerdidos": 3,
+          "JuegosGanadosShootouts": 0,
+          "JuegosPerdidosShootouts": 1,
+          "JuegosGanadosPorDefault": 1,
+          "JuegosPerdidosPorDefault": 0,
+          "GolesFavor": 26,
+          "GolesContra": 29,
+          "DiferenciaGoles": -3,
+          "Puntos": 10
+        },
+      "Cuervos Negros": 
+        {
+          "JuegosJugados": 6,
+          "JuegosGanados": 2,
+          "JuegosEmpatados": 1,
+          "JuegosPerdidos": 3,
+          "JuegosGanadosShootouts": 1,
+          "JuegosPerdidosShootouts": 0,
+          "JuegosGanadosPorDefault": 0,
+          "JuegosPerdidosPorDefault": 0,
+          "GolesFavor": 20,
+          "GolesContra": 19,
+          "DiferenciaGoles": 1,
+          "Puntos": 8
+        },
+      "Vodka JR": 
+        {
+          "JuegosJugados": 7,
+          "JuegosGanados": 2,
+          "JuegosEmpatados": 1,
+          "JuegosPerdidos": 4,
+          "JuegosGanadosShootouts": 0,
+          "JuegosPerdidosShootouts": 1,
+          "JuegosGanadosPorDefault": 0,
+          "JuegosPerdidosPorDefault": 0,
+          "GolesFavor": 25,
+          "GolesContra": 24,
+          "DiferenciaGoles": 1,
+          "Puntos": 7
+        },
+      "Guerreros de Dios": 
+        {
+          "JuegosJugados": 6,
+          "JuegosGanados": 1,
+          "JuegosEmpatados": 1,
+          "JuegosPerdidos": 4,
+          "JuegosGanadosShootouts": 0,
+          "JuegosPerdidosShootouts": 1,
+          "JuegosGanadosPorDefault": 0,
+          "JuegosPerdidosPorDefault": 0,
+          "GolesFavor": 12,
+          "GolesContra": 25,
+          "DiferenciaGoles": -13,
+          "Puntos": 4
+        },
+      "Santo Domingo": 
+        {
+          "JuegosJugados": 7,
+          "JuegosGanados": 1,
+          "JuegosEmpatados": 0,
+          "JuegosPerdidos": 4,
+          "JuegosGanadosShootouts": 0,
+          "JuegosPerdidosShootouts": 0,
+          "JuegosGanadosPorDefault": 0,
+          "JuegosPerdidosPorDefault": 2,
+          "GolesFavor": 5,
+          "GolesContra": 20,
+          "DiferenciaGoles": -15,
+          "Puntos": 3
+        },
+      "Liverpool": 
+        {
+          "JuegosJugados": 2,
+          "JuegosGanados": 0,
+          "JuegosEmpatados": 0,
+          "JuegosPerdidos": 1,
+          "JuegosGanadosShootouts": 0,
+          "JuegosPerdidosShootouts": 0,
+          "JuegosGanadosPorDefault": 0,
+          "JuegosPerdidosPorDefault": 1,
+          "GolesFavor": 2,
+          "GolesContra": 7,
+          "DiferenciaGoles": -5,
+          "Puntos": 0
+        }
+    }
+}
