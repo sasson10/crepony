@@ -137,12 +137,12 @@
         </thead>
         <tbody>
           <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
+            <th id="fecha"></th>
+            <th id="hora1"></th>
+            <th id="equipo1"></th>
+            <th id=""></th>
+            <th id=""></th>
+            <th id="equipo2"></th>
           </tr>
         </tbody>
       </table>
@@ -318,14 +318,42 @@
       };
       firebase.initializeApp(config);
 
-      //var equiposURL = firebase.database().ref().child("Equipos");
       var equiposURL = firebase.database().ref().child("Equipos").orderByChild('Puntos');
-      // var equiposURL = firebase.database().ref().child("Equipos").orderByValue('Puntos').;
       var globalApp = angular.module('miApp',['firebase']);
       globalApp.controller('MainController', function($scope,$firebaseArray,$firebaseObject){
         $scope.equipos = $firebaseArray(equiposURL)
         console.log("EquiposURL: ", equiposURL)
         console.log("$scope.equipos: ", $scope.equipos)
+      });
+
+      //Próxima jornada
+
+      var rootRef = firebase.database().ref();
+      rootRef.once("value").then(function(snapshot){
+          var equipos = snapshot.child("Equipos").val();
+          console.log("Equipos",equipos);
+          var dateString = "15/07/2018";          
+          var hour1 = "11:00";
+
+          var AlemaniaName = snapshot.child("Equipos/Alemania/Nombre").val();
+          var CuervosNegrosName = snapshot.child("Equipos/Cuervos Negros/Nombre").val();
+          var GuerrerosDeDiosName = snapshot.child("Equipos/Guerreros de Dios/Nombre").val();
+          var liverpoolName = snapshot.child("Equipos/Liverpool/Nombre").val();
+          var MadridName = snapshot.child("Equipos/Madrid/Nombre").val();
+          var MilanName = snapshot.child("Equipos/Milan/Nombre").val();
+
+          var MovimientoNaranjaName = snapshot.child("Equipos/Movimiento Naranja/Nombre").val();
+          var ParisName = snapshot.child("Equipos/Paris/Nombre").val();
+          var PueblaName = snapshot.child("Equipos/Puebla/Nombre").val();
+          var SantoDomingoName = snapshot.child("Equipos/Santo Domingo/Nombre").val();
+          var VodkaJRName = snapshot.child("Equipos/Vodka JR/Nombre").val();
+          
+
+          console.log("Equipo 1",MovimientoNaranjaName);
+
+          document.getElementById('fecha').innerHTML = dateString;
+          document.getElementById('hora1').innerHTML = hour1;
+         
       });
 
     </script>
